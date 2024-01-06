@@ -1,0 +1,59 @@
+html {
+  scroll-behavior: smooth;
+  overflow-x: none;
+}
+body {
+  overflow: hidden;
+}
+/* navbar */
+.nav span a {
+  text-align: center;
+}
+.nav span a:hover {
+  transform: 5fr;
+}
+
+/* about */
+#about {
+  background-image: url(/img/C2.png);
+}
+#about img {
+  width: 400px;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+#about .col h2 {
+  padding-bottom: 100px;
+}
+
+/* profile */
+#profile .card {
+  width: 300px;
+  margin: 0 auto;
+}
+#profile .col h2 {
+  padding-bottom: 100px;
+}
+
+/* gallery */
+#gallery img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+#gallery .col h2 {
+  padding-bottom: 100px;
+}
+
+#gallery {
+  background-image: url(/img/C1.jpeg);
+}
+
+/* contact */
+#contact .contact {
+  width: 50%;
+  margin: 0 auto;
+}
+/* .card {
+  background-color:  rgb(255, 201, 100);
+}     */
